@@ -18,7 +18,7 @@
 
 #### 单图层操作
 
-![ae图层](/Users/cutemac/Downloads/ae图层.png)
+![ae图层](./img/ae图层.png)
 
 图层锚点居中：cmd+alt+home
 
@@ -82,7 +82,7 @@
 
 
 
-![EA1B90CC-0C85-4194-844D-75D9BD0F3FAF](/Users/cutemac/Library/Containers/com.tencent.qq/Data/Library/Application Support/QQ/Users/1807814821/QQ/Temp.db/EA1B90CC-0C85-4194-844D-75D9BD0F3FAF.png)
+![EA1B90CC-0C85-4194-844D-75D9BD0F3FAF](./img/工作区.png)
 
 *tip：在此处右键可将合成裁剪为指定工作区，缩短合成时长*
 
@@ -106,17 +106,17 @@
 
 平移预览位置：按住滚轮
 
-![ae预览界面](/Users/cutemac/Downloads/ae预览界面.png)
+![ae预览界面](./img/ae预览界面.png)
 
 ### 图层界面：
 
 展开和折叠图层控制开关：图层窗口界面左下角
 
-![63BB2862-2E43-4D71-8143-2202B8C5EE9C](/Users/cutemac/Library/Containers/com.tencent.qq/Data/Library/Application Support/QQ/Users/1807814821/QQ/Temp.db/63BB2862-2E43-4D71-8143-2202B8C5EE9C.png)
+![63BB2862-2E43-4D71-8143-2202B8C5EE9C](./img/图层开关.png)
 
 ### 工具栏：
 
-![CC3D41C0-0294-46AF-BC0D-A20AEE7D0C75](/Users/cutemac/Library/Containers/com.tencent.qq/Data/Library/Application Support/QQ/Users/1807814821/QQ/Temp.db/CC3D41C0-0294-46AF-BC0D-A20AEE7D0C75.png)
+![CC3D41C0-0294-46AF-BC0D-A20AEE7D0C75](./img/工具栏.png)
 
 （下列顺序自左向右）
 
