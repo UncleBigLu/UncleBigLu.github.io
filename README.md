@@ -4,7 +4,7 @@
 
 ## index
 
-[ae/pr/ps notes](ae_notes)
+[ae/pr/ps notes](adobe_notes)
 
 [painting skills](./paintings)
 
