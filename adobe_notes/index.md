@@ -4,3 +4,5 @@
 
 [ae quick notes](ae_quick_notes)
 
+[ps_quick_notes](./ps_quick_notes)
+
