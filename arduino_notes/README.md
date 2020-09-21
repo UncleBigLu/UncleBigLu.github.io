@@ -1,4 +1,6 @@
 # Arduino notes
 
-[servo, pwm and timer interrupt](./servo_and_pwm)
+[servo, pwm and timer interrupt](./servo_and_PWM)
+
+
 
