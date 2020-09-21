@@ -42,3 +42,41 @@ chunk				n.大块
 
 inhibit				v.禁止
 
+#### 8.10
+
+Orientation 		n.方向
+
+#### 8.12
+
+manipulate			v.熟练控制，操作
+
+layout					n.布局
+
+volume					n.卷
+
+#### 8.15
+
+adequate				adj.足够的
+
+reduction				n.还原，减少
+
+arbitrary					adj.任意的,随意的
+
+compensation			n.补偿，修正
+
+contrast					n/v.对比，反差
+
+encounter				v/n.遭遇，遇见
+
+Distinguished			v.区别，分辨/adj.著名的，卓越的
+
+strategy					n.策略，战略
+
+merit						n.优点
+
+restrict						v.限制
+
+constant				n.常数，常量/adj.连续发生的，重复的，不变的
+
+Spoil						v.破坏/n.赃物
+
