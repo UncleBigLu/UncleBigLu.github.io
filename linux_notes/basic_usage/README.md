@@ -6,7 +6,7 @@
 
 列出已安装软件包： `apt list --installed` 。本命令显示使用apt安装的所有软件包及由于被依赖而安装的包
 
-查找源软件包：`apt-get search`
+查找源软件包：`apt search`
 
 
 ### git clone 走代理：
