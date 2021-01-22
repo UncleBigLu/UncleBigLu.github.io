@@ -4,3 +4,7 @@
 
 [Switch gcc version using update-alternatives](./switch_gcc_version)
 
+[rpi_notes](./rpi_notes)
+
+[Mac OS notes](./macos)
+
