@@ -2,5 +2,7 @@
 
 [动态二维码生成](./qrGenerate)
 
+[乱码生成器](./garbledGenerate)
+
 
 
