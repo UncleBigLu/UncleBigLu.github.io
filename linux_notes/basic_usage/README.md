@@ -8,6 +8,10 @@
 
 查找源软件包：`apt search`
 
+命令别名：`alias name='command line'`
+将本命令写入~/.bashrc后执行`source ~/.bashrc`生效
+
+
 
 ### git clone 走代理：
 添加文件~/.ssh/config：
@@ -45,6 +49,9 @@ https://gist.github.com/bynil/2126e374db8495fe33de2cbc543149ae
 
 
 
+## 部分配置文件
+
+[/etc/profile, /etc/bashrc](./understand_profile.md)
 
 
 
