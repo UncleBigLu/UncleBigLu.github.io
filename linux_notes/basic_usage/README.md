@@ -55,9 +55,20 @@ https://gist.github.com/bynil/2126e374db8495fe33de2cbc543149ae
 
 
 
+## apt
+
+### 查找已安装包：
+
+`apt search packetname | grep installed`
 
 
+### 删除顶层包及配置文件
 
+`apt-get purge packetname`
+
+### 删除顶层包及底层依赖
+
+`apt-get autoremove packetname`
 
 
 
