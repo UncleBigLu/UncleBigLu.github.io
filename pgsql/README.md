@@ -38,7 +38,7 @@
 
 `DROP TABLE <table_name>`
 
-
+D
 
 
 
