@@ -12,55 +12,74 @@ T(n) = O(nlogn)
 ### 代码：
 
 ```c++
-void merge(int *a, int start, int mid, int end)
+// Merges two subarrays of arr[].
+// First subarray is arr[l..m]
+// Second subarray is arr[m+1..r]
+void merge(int arr[], int l, int m, int r)
 {
-    int len_f = mid - start + 1;
-    int len_b = end - mid;
-    int buf_f[len_f], buf_b[len_b];
-
-    for(int i = 0; i < len_f; ++i)
-    {
-        buf_f[i] = a[start + i];
-    }
-    for(int i = 0; i < len_b; ++i)
-    {
-        buf_b[i] = a[mid + i + 1];
-    }
-
-    int i = 0, j = 0, cnt = 0;
-    while(i < len_f && j < len_b)
-    {
-        if(buf_f[i] < buf_b[j])
-        {
-            a[start + cnt] = buf_f[i++];
+    int n1 = m - l + 1;
+    int n2 = r - m;
+ 
+    // Create temp arrays
+    int L[n1], R[n2];
+ 
+    // Copy data to temp arrays L[] and R[]
+    for (int i = 0; i < n1; i++)
+        L[i] = arr[l + i];
+    for (int j = 0; j < n2; j++)
+        R[j] = arr[m + 1 + j];
+ 
+    // Merge the temp arrays back into arr[l..r]
+ 
+    // Initial index of first subarray
+    int i = 0;
+ 
+    // Initial index of second subarray
+    int j = 0;
+ 
+    // Initial index of merged subarray
+    int k = l;
+ 
+    while (i < n1 && j < n2) {
+        if (L[i] <= R[j]) {
+            arr[k] = L[i];
+            i++;
         }
-        else
-        {
-            a[start + cnt] = buf_b[j++];
+        else {
+            arr[k] = R[j];
+            j++;
         }
-        ++cnt;
+        k++;
     }
-    while(i < len_f)
-    {
-        a[start + cnt] = buf_f[i++];
-        ++cnt;
+ 
+    // Copy the remaining elements of
+    // L[], if there are any
+    while (i < n1) {
+        arr[k] = L[i];
+        i++;
+        k++;
     }
-    while(j < len_b)
-    {
-        a[start + cnt] = buf_b[j++];
-        ++cnt;
+ 
+    // Copy the remaining elements of
+    // R[], if there are any
+    while (j < n2) {
+        arr[k] = R[j];
+        j++;
+        k++;
     }
 }
-
-void mergeSort(int *a, int start, int end)
-{
-    if(start < end)
-    {
-        int mid = (start + end) / 2;
-        mergeSort(a, start, mid);
-        mergeSort(a, mid+1, end);
-        merge(a, start, mid, end);
+ 
+// l is for left index and r is
+// right index of the sub-array
+// of arr to be sorted */
+void mergeSort(int arr[],int l,int r){
+    if(l>=r){
+        return;//returns recursively
     }
+    int m =l+ (r-l)/2;
+    mergeSort(arr,l,m);
+    mergeSort(arr,m+1,r);
+    merge(arr,l,m,r);
 }
 ```
 
