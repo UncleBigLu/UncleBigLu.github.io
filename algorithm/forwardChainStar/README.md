@@ -22,8 +22,7 @@ void addEdge(int start, int end, int weight){
   edges[tot].to = end;
   edges[tot].weight = weight;
   edges[tot].next = head[start];	// 相当于在链表的头部加上这个新的边节点，而不是尾部
-  head[start] = edges[tot];	
-  tot++;
+  head[start] = tot++;	 
 }
 ```
 
