@@ -24,8 +24,19 @@ void addEdge(int start, int end, int weight){
   edges[tot].next = head[start];	// 相当于在链表的头部加上这个新的边节点，而不是尾部
   head[start] = tot++;	 
 }
+
+// 遍历某一个节点开头的所有节点
+void traversal(root){
+  for(int i = head[root]; i != 0; i = edges[i].next){
+    int nextNode = edges[i].to;
+    // Do somethings...
+  }
+}
 ```
 
 ![1](./img/1.png)
 
 (若要添加5->1权重为7的边，将h5指向【1，7，】，【1，7，】的next指向【3，6，】)
+
+
+
