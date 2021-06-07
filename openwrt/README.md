@@ -23,3 +23,12 @@ widora 内置系统提供了通过网页刷系统的功能，可以方便的通�
 主要配置内容：
 
 - 在interface中增加一个接口。默认设置中，以太网口与无线网口处于桥接状态，对外提供dhcp服务。
+- 配置方式：新建一个LAN口在wlan0上，对外提供dhcp服务，protocol为static address。之后即可连接上这一wifi并进入配置页面
+- 通过wifi进入配置界面后，将WAN口配置为DHCP client。
+- 在firewall配置下，将LAN口添加到lan firewall zone下。
+
+![firewall1](./img/firewall1.png)
+
+![firewall2](./img/firewall2.png)
+
+- 之后理论上即可接入网络。
