@@ -1,6 +1,6 @@
 [docker](./docker)
 
-[netWire](./netWire)
+[nat](./nat)
 
 [zerotier](./zerotier)
 
