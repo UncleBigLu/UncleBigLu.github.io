@@ -70,5 +70,18 @@ https://gist.github.com/bynil/2126e374db8495fe33de2cbc543149ae
 
 `apt-get autoremove packetname`
 
+# ssh
 
+## ssh 端口转发
 
+### 静态端口映射
+
+见ssh man page `-R -L`选项。
+
+e.g `ssh username@公网服务器地址 -R 0.0.0.0:port1:本机可访问到的地址:port2`
+
+即可实现访问公网服务器port1等同于访问本机可访问到的地址的port2.
+
+### socks5端口转发
+
+见-D选项。尚未测试。
